@@ -29,19 +29,16 @@ function App() {
     setTodos([...todos, myTodo]);
     console.log(myTodo)
   }
-
-
-
   const [todos, setTodos] = useState([   // to update
     {
       sno: 1,
-      title: "Go to the market",
-      desc: "You need to go to the market to get this job done"
+      title: "Go to Shopping",
+      desc: "You need to buy these items: oil, vegetables, rice, thoothpaste"
     },
     {
       sno: 2,
-      title: "Go to the gym",
-      desc: "You need to go to the gym to get this job done"
+      title: "Go to gym",
+      desc: "You need to do some exercises"
     },
   ]);
   return (
